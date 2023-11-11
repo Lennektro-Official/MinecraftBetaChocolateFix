@@ -1,0 +1,25 @@
+body {
+    background-image: url('res/cave.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    padding: 10px;
+}

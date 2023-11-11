@@ -1,0 +1,111 @@
+body {
+    background-image: url('res/desk.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* The div that contains the banner, text and feature list */
+.main-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 5%;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Banner */
+
+.banner {
+    margin: auto;
+    width: 440px;
+}
+
+/* Text about the Chocolate Pack */
+
+.cp-text {
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+}
+
+/* Feature Box */
+
+.feature-box {
+    border-width: 4px;
+    border-style: solid;
+    border-color: slategray;
+    margin: auto;
+    width: 440px;
+    padding: 10px;
+}
+
+.feature-headding {
+    color: rgb(0, 255, 162);
+    text-decoration: underline;
+}
+
+.feature-text {
+    color: rgb(255, 200, 0);
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Download Button */
+
+.download_button {
+    border: none;
+    color: white;
+    background-color: brown;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    padding: 14px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 10%;
+}
+
+.download_button:hover {
+    background-color: red;
+}
+
+.download_button:hover .dicon {
+    display: none;
+}
+
+.download_button .dicon-anim {
+    display: none;
+}
+
+.download_button:hover .dicon-anim {
+    display: inline-block;
+}
+
+/* Changelog Button */
+.changelog_button {
+    border: none;
+    color: white;
+    background-color: brown;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    padding: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 5%;
+}
+
+.changelog_button:hover {
+    background-color: red;
+}
